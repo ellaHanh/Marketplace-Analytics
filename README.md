@@ -106,7 +106,7 @@ pipeline quality problems:
   - **Linux/Unix**: bash or equivalent (make usually pre-installed)
 
 ```bash
-git clone https://github.com/ellaHanh/MarketplaceAnalytics.git
+git clone https://github.com/ellaHanh/Marketplace-Analytics.git
 cd MarketplaceAnalytics
 cp .env.example .env          # see PostgreSQL Setup section below for credentials
 make install                  # pip install -r requirements.txt
