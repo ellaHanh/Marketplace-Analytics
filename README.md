@@ -6,6 +6,24 @@ in a Streamlit dashboard — all from a single `make run`.
 
 ---
 
+<div align="left">
+
+## 🛒 Workflow 
+
+![Architecture](./MarketplaceAnalyticsWorkflowDiagram.gif)
+
+## 📊 Live Dashboard Demo
+
+[![Dashboard Demo](./marketplace_analytics_dashboard.gif)](#)
+
+**Upload Stripe/NetSuite CSVs → instant GMV, MRR, NRR, Cohort Retention, Data Quality Metrics**
+
+</div>
+
+<br>
+
+---
+
 ## Architecture
 
 ```
@@ -88,7 +106,7 @@ pipeline quality problems:
   - **Linux/Unix**: bash or equivalent (make usually pre-installed)
 
 ```bash
-git clone <repo>
+git clone https://github.com/ellaHanh/MarketplaceAnalytics.git
 cd MarketplaceAnalytics
 cp .env.example .env          # see PostgreSQL Setup section below for credentials
 make install                  # pip install -r requirements.txt
