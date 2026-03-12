@@ -16,7 +16,7 @@ in a Streamlit dashboard — all from a single `make run`.
 
 [![Dashboard Demo](./marketplace_analytics_dashboard.gif)](#)
 
-**Upload Stripe/NetSuite CSVs → instant GMV, MRR, NRR, Cohort Retention, Data Quality Metrics**
+**GMV, MRR, NRR, Cohort Retention, Data Quality Metrics**
 
 </div>
 
@@ -107,7 +107,7 @@ pipeline quality problems:
 
 ```bash
 git clone https://github.com/ellaHanh/Marketplace-Analytics.git
-cd MarketplaceAnalytics
+cd .
 cp .env.example .env          # see PostgreSQL Setup section below for credentials
 make install                  # pip install -r requirements.txt
 make reset-db                 # drop + recreate schema (requires Postgres running)
